@@ -1,0 +1,72 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #8b99ce;
+    color: #5f4a40;
+    border-bottom: 6px solid #ebebeb;
+    border-radius: 10px;
+    text-shadow: #e17b7e 1px 1px;
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.avatar {
+    background-size: 100%;
+    background-image: url("images/baby-matthew.jpg");
+    transition: 0.2s;
+}
+
+.avatar:hover {
+    background-image: url("images/per.png");
+}
+
+.round-border {
+    border-radius: 7px;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+.info{
+    padding: 0 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.info:hover{
+    background-color: #9cb785;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
